@@ -1,0 +1,100 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    color: #FFFCFC;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    font-family: 'Segoe Ui', 'Sans-serif';
+}
+
+.background1{
+    position: relative;
+    width: 100vw;
+    height: 1443px;
+    background-color: aliceblue;
+    overflow: hidden;
+}
+
+.background1 .rectangle1{
+    position: relative;
+    width: 103vw;
+    height: 36vh;
+    left: -8vw;
+    top: 34vh;
+    background-color: linear-gradient(to right, aquamarine, rgb(204, 248, 233));
+    transform: rotate(-10);
+}
+
+.background2{
+    position: relative;
+    width: 100vw;
+    height: 1443px;
+    background-color: #FFFCFC;
+}
+
+.background2 .text-box{
+    position: absolute;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: 8.7vh;
+    width: 680px;
+    height: 130px;
+}
+
+.background2 .rec1{
+    position: absolute;
+    font-size: 45px;
+    color: #424647;
+}
+
+.background2 .text1 .span{
+    color: rgb(0, 4, 255);
+}
+
+.background2 .text2{
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    color: #618b96;
+    left: 21.5px;
+    bottom: 0px;
+}
+.background2.rectangle-box{
+    position: absolute;
+    width: 1500px;
+    height: 1000px;
+    margin: 0 auto;
+    left: 0px;
+    right: 0px;
+    top: 28%;      
+} 
+
+.background2.rectangle-box.rec1{
+    position: absolute;
+    left: 0px;
+    top: 70px;
+    width: 30%;
+    height: 43%;
+    background-color: #FFFCFC;
+    box-shadow: 0px 3px 56px rgba(0, 0, 0, 16%);
+}
+
+.background2 .rectangle-box .rec1 .img{
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    left: 37.5%;
+    top: 14%;
+}
+
+.background2.rectangle-box.rec1.rec-txt1{
+    position: absolute;
+    font-size: 35px;
+    color: #000;
+
+
+}
