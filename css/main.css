@@ -14,25 +14,110 @@ body{
     position: relative;
     width: 100vw;
     height: 1443px;
-    background-color: aliceblue;
+    background: linear-gradient(to right, #4CDCE6, #003CFF);
     overflow: hidden;
 }
 
 .background1 .rectangle1{
-    position: relative;
+    position: absolute;
     width: 103vw;
     height: 36vh;
     left: -8vw;
     top: 34vh;
-    background-color: linear-gradient(to right, aquamarine, rgb(204, 248, 233));
-    transform: rotate(-10);
+    background: linear-gradient(to right, #0E05F0, rgba(49, 250, 216, 50%));
+    transform: rotate(-15deg);
+    box-shadow: -8px 28px 19px rgba(0, 0, 0, 21%);
 }
+
+.background1 .rectangle2{
+    position: absolute;
+    width: 103vw;
+    height: 36vh;
+    left: 20vw;
+    top: 42vh;
+    background: linear-gradient(to right, #0E05F0, rgba(49, 250, 216, 50%));
+    transform: rotate(50deg);
+    box-shadow: -8px 28px 19px rgba(0, 0, 0, 21%);
+}
+
+.background1 .back-rec1{
+    position: absolute;
+    width: 28vw;
+    height: 50vh;
+    left: -5vw;
+    top:68vh;
+    background: transparent;
+    border: 16px solid rgba(255, 255, 255, 21%);
+    transform: rotate(25deg);
+
+}
+
+.background1 .back-rec2{
+    position: absolute;
+    width: 28vw;
+    height: 50vh;
+    left: 80vw;
+    top:7vh;
+    background: transparent;
+    border: 16px solid rgba(255, 255, 255, 21%);
+    transform: rotate(25deg);
+
+}
+
+.background1 .text-rec{
+    position: absolute;
+    background: transparent;
+    width: 276px;
+    height: 327px;
+    left: 0px;
+    right: 0px;
+    margin: 37.6vh auto;
+    border: 18px solid #FFFCFC;
+}
+
+.background1 .text-rec .text{
+    top: 27.5px;
+    left: 45px;
+    font-size: 116px;
+    font-weight: bold;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.header {
+    z-index: 2;
+    width: 1290px;
+    height: 107px;
+    position: fixed;
+    margin: 34px auto;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background: transparent;
+  }
+  
+  .header .menu {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .header .menu .nav-item {
+    font-size: 18px;
+    display: block;
+    padding: 43px 10px;
+    color: #FFFCFC;
+  }
+  
+  .header .menu .nav-item a {
+    color: #FFFCFC;
+  }
+
 
 .background2{
     position: relative;
     width: 100vw;
     height: 1443px;
-    background-color: #FFFCFC;
+    background: #FFFCFC;
 }
 
 .background2 .text-box{
@@ -79,7 +164,7 @@ body{
     top: 70px;
     width: 30%;
     height: 43%;
-    background-color: #FFFCFC;
+    background: #FFFCFC;
     box-shadow: 0px 3px 56px rgba(0, 0, 0, 16%);
 }
 
@@ -98,3 +183,151 @@ body{
 
 
 }
+
+.background3 {
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 1443px;
+    background-color: #FFFCFC;
+    overflow: hidden;
+  }
+  
+  .background3 .bg {
+    position: absolute;
+  }
+  
+  .background3 .bg-gradient {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(76, 76, 230, 30%), rgba(255, 0 ,254, 89%));
+  }
+  
+  .background3 .C {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 300;
+    left: 30%;
+    top: 32%;
+  }
+  
+  .background3 .S {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 200;
+    left: 30%;
+    top: 44%;
+  }
+  
+  .background3 .btn {
+    position: absolute;
+    left: 30%;
+    top: 56%;
+    width: 250px;
+    height: 100px;
+    background-color: transparent;
+    border: 1px solid #FFFCFC;
+    border-radius: 50px;
+  }
+  
+  .background3 .btn .F {
+    position: absolute;
+    font-weight: 300;
+    font-size: 30px;
+    left: 23%;
+    top: 27%;
+  }
+  
+  .background3 .app {
+    position: absolute;
+    left: 55%;
+    top: 21%;
+    width: 550px;
+    height: auto;
+  }
+  
+  .background4 {
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 1443px;
+    background-color: #FFFCFC;
+    overflow: hidden;
+  }
+  
+  .background4 .app {
+    position: absolute;
+    left: 27%;
+    top: 21%;
+    width: 550px;
+    height: auto;
+  }
+  
+  .background4 .M {
+    position: absolute;
+    font-size: 40px;
+    font-weight: 200;
+    left: 48%;
+    top: 30%;
+    color: #000;
+  }
+  
+  .background4 .T {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 200;
+    left: 48%;
+    top: 42%;
+    color: #8f8f8f;
+  }
+  
+  .background4 .graphback1 {
+    position: absolute;
+    width: 22%;
+    height: 45px;
+    background-color: #e8e8e8;
+    left: 48%;
+    top: 56%;
+    border-radius: 50px;
+  }
+  
+  .background4 .graphfront1 {
+    position: absolute;
+    width: 85%;
+    height: 45px;
+    background-color: #FF00CC;
+    border-radius: 50px;
+  }
+  
+  .background4 .graphfront1 span {
+    position: absolute;
+    left: 40%;
+    font-size: 30px;
+    font-weight: 300;
+  }
+  
+  .background4 .graphback2 {
+    position: absolute;
+    width: 22%;
+    height: 45px;
+    background: #E8E8E8;
+    left: 48%;
+    top: 61%;
+    border-radius: 50px;
+  }
+  
+  .background4 .graphfront2 {
+    position: absolute;
+    width: 90%;
+    height: 45px;
+    background: #9C43FF;
+    border-radius: 50px;
+  }
+  
+  .background4 .graphfront2 span {
+    position: absolute;
+    left: 38%;
+    font-size: 30px;
+    font-weight: 300;
+  }
